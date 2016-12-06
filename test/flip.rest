@@ -1,0 +1,15 @@
+http://localhost:3000
+
+Content-Type: application/x-www-form-urlencoded
+
+POST /
+channel_name=privategroup&
+command=/flip&
+response_url=https://hooks.slack.com/commands/T0294G2FY/81931900003/hrIpSLRx3bgKVeenjQ3QOHQY&
+team_domain=leantechniques&
+team_id=T0294G2FY&
+text=A Table&
+token=JaWzHq5vMdQKefRWIKpOXKbg&
+channel_id=G1KPRDT7D&
+user_id=U0294G2G0&
+user_name=darrin"

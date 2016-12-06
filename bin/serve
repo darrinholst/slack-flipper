@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const log = require('debug')('lt');
+const app = require('../lib/web-server')();
+
+app.set('port', process.env.PORT || 3000);
+
+const server = app.listen(app.get('port'), function () {
+  log('Express server listening on port %s', server.address().port);
+});
+
